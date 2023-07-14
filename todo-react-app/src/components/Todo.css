@@ -1,0 +1,29 @@
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item .title {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .todo-item .status {
+    margin-right: 10px;
+  }
+  
+  .todo-item .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

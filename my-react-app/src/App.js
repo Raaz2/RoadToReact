@@ -1,17 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter';
+import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
-let name = "Rajeev Ranjan Mishra"
-let library = "React"
 
 function App() {
   return (
     <>
-    <div className="title">
-      <h1>Hello World! <br /> Road to {library}</h1>
-      <Counter/>
-    </div>
+      <Navbar title="TextUtils"/>
+      <div className="container my-3">
+      <TextForm heading="Enter the text to analyze" />
+      </div>
     </>
   );
 }
